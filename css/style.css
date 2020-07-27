@@ -64,7 +64,7 @@ html h2, body h2 {
 .card .front .top-pic {
   height: 50%;
   width: 100%;
-  background-image: url(/img/bg-6);
+  background-image: url(/img/bg);
   background-size: cover;
 }
 .card .front .avatar {
@@ -139,6 +139,6 @@ html h2, body h2 {
   top: -30px;
   left: -30px;
   -webkit-filter: blur(10px);
-  background-image: url(/img/bg-6);
+  background-image: url(/img/bg);
   background-size: cover;
 }
