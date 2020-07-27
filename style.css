@@ -193,6 +193,7 @@ html h2, body h2 {
   left: -30px;
   -webkit-filter: blur(10px);
   background-image: url(/img/bg.jpg);
+
   background-size: cover;
 }
 
