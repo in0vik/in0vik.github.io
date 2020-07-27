@@ -9,5 +9,3 @@ $('.more-info').click(function(){
 $('#background').click(function(){
   $('#card').removeClass('flip');
 })
-
-

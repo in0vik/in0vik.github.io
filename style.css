@@ -197,14 +197,3 @@ html h2, body h2 {
   background-size: cover;
 }
 
-@keyframes arrowWiggle {
-  0% {
-    right: 50px;
-  }
-  50% {
-    right: 35px;
-  }
-  100% {
-    right: 50px;
-  }
-}
