@@ -78,7 +78,18 @@
   </div>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
-  
+  <script>
+document.onmousewheel = document.onwheel = function() {
+return false;
+};
+
+document.addEventListener ("MozMousePixelScroll",
+function() { return false }, false);
+
+document.onkeydown = function(e) {
+if (e.keyCode >= 33 && e.keyCode <= 40) return false;
+}
+</script>
   
 
 </body>
